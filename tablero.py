@@ -108,5 +108,5 @@ class Tablero:
         pyxel.blt(0, 79, 0, 0, 104, 50, 9, 0, scale=2)
         pyxel.blt(18,40,1, 16,0,32,24,14,scale=2)
         #Marcador
-        py
+        
 prueba = Tablero(512, 256)
