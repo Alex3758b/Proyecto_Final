@@ -10,7 +10,7 @@ class Tablero:
         'abajo_izq':(2,0,48,16,16),
         'abajo_der':(2,0,32,16,16),
         'arriba':(2,0,96,16,16),
-        'triste':(2,0,64,16,16)
+        'triste':(2,0,64,16,16)sdgjlñ
     }
 
     sprites_luigi = {
