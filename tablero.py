@@ -60,7 +60,7 @@ class Tablero:
             self.luigi.mover("abajo")
 
     def draw(self):
-        pyxel.cls(7)
+        pyxel.cls(13)
         #Escaleras
         pyxel.blt(self.mario.x, self.niveles_y[4]-25,0,0,56, 16,16,0,scale=2)
         pyxel.blt(self.mario.x, self.niveles_y[2]-25,0,0,56, 16,16,0,scale=2)
@@ -106,5 +106,7 @@ class Tablero:
         #Zona del camión
         pyxel.blt(71,57,0,112,0,4,17,0,scale=2)
         pyxel.blt(0, 79, 0, 0, 104, 50, 9, 0, scale=2)
-        pyxel.blt(18,40,1, 16,0,32,24, 0,scale=2)
+        pyxel.blt(18,40,1, 16,0,32,24,14,scale=2)
+        #Marcador
+        py
 prueba = Tablero(512, 256)
