@@ -3,6 +3,7 @@ from clases import Camion
 from clases import Paquete
 from clases import Jefe
 import pyxel
+prueba2
 class Tablero:
 
     sprites_mario = {
