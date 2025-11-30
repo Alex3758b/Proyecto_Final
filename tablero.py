@@ -19,6 +19,15 @@ class Tablero:
         'arriba': (2, 16, 96, 16, 16),
         'triste': (2, 16, 80, 16, 16)
     }
+    sprites_paquete = {
+        'fase1':(1,0,0,16,16),
+        'fase2':(1,0,16,16,16),
+        'fase3':(1,0,32,16,16),
+        'fase4':(1,0,48,16,16),
+        'fase5':(1,0,64,16,16),
+        'fase6':(1,0,80,16,16),
+
+    }
     def __init__(self, ancho: int, alto: int):
 
         self.ancho = ancho
@@ -108,5 +117,10 @@ class Tablero:
         pyxel.blt(0, 79, 0, 0, 104, 50, 9, 0, scale=2)
         pyxel.blt(18,40,1, 16,0,32,24,14,scale=2)
         #Marcador
-        
+
+        pyxel.text(300,10,"FALLOS: 2", 0)
+
+        pyxel.text(500,10,'i', 0)
+
+
 prueba = Tablero(512, 256)
