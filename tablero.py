@@ -26,8 +26,8 @@ class Tablero:
         'fase4':(1,0,48,16,16),
         'fase5':(1,0,64,16,16),
         'fase6':(1,0,80,16,16),
-
     }
+
     def __init__(self, ancho: int, alto: int):
 
         self.ancho = ancho
@@ -67,6 +67,7 @@ class Tablero:
             self.luigi.mover("arriba")
         if pyxel.btnp(pyxel.KEY_S):
             self.luigi.mover("abajo")
+
 
     def draw(self):
         pyxel.cls(13)
@@ -116,10 +117,8 @@ class Tablero:
         pyxel.blt(71,57,0,112,0,4,17,0,scale=2)
         pyxel.blt(0, 79, 0, 0, 104, 50, 9, 0, scale=2)
         pyxel.blt(18,40,1, 16,0,32,24,14,scale=2)
-        #Marcador
-
+        #Marcador de fallos y puntos
         pyxel.text(300,10,"FALLOS: 2", 0)
-
         pyxel.text(500,10,'i', 0)
 
 

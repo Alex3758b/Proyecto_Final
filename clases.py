@@ -85,7 +85,7 @@ class Camion:
 
 
 class Paquete:
-    def __init__(self, x: int, y: int, sprites: tuple, nivel: int, velocidad: int):
+    def __init__(self, x: int, y: int, sprites: dict, nivel: int):
         self.x = x
         self.y = y
         self.sprites = sprites
